@@ -34,7 +34,7 @@ Desktop Version:
 ### Links
 
 - Solution URL: [https://github.com/vandnasharma26/intro-section-with-dropdown-navigation/tree/main](https://github.com/vandnasharma26/intro-section-with-dropdown-navigation/tree/main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://vandnasharma26.github.io/intro-section-with-dropdown-navigation/](https://vandnasharma26.github.io/intro-section-with-dropdown-navigation/)
 
 ## My process
 
