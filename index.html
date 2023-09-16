@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <div class="logo-container">
+        <img id="logo" src="images/logo.svg" alt="logo">
+        <img src="images/icon-menu.svg" alt="icon-menu" id="menu">
+      </div>
+      <div class="main-menu">
+        <ul class="menu">
+          <li class="drop-down" id="features">
+              <span>Features</span>
+              <img class="arrow-icon features-arrow" src="images/icon-arrow-down.svg" alt="arrow">
+              <div class="drop-down-menu" id="features-menu">
+                <div class="container-main">
+                  <div class="component">
+                    <div class="icon-container"><img src="images/icon-todo.svg" alt="icon-todo"></div>
+                    <p><a href="">Todo List</a></p>
+                  </div>
+          
+                  <div class="component">
+                    <div class="icon-container"><img src="images/icon-calendar.svg" alt="icon-calendar"></div>
+                    <p><a href="">Calender</a></p>
+                  </div>
+          
+                  <div class="component">
+                    <div class="icon-container"><img src="images/icon-reminders.svg" alt="icon-reminders"></div>
+                    <p><a href="">Reminders</a></p>
+                  </div>
+          
+                  <div class="component rounded-bottom">
+                    <div class="icon-container"><img src="images/icon-planning.svg" alt="icon-planning"></div>
+                    <p><a href="">Planning</a></p>
+                  </div>
+                </div>
+              </div>
+          </li>
+          <li class="drop-down" id="company">
+            <span>Company</span>
+            <img class = "arrow-icon" src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+            <div class="drop-down-menu" id="company-menu">
+              <div class="container-main" id="company">
+                <div class="component">
+                  <p><a href="">History</a></p>
+                </div>
+                <div class="component">
+                  <p><a href="">Our Team</a></p>
+                </div>
+                <div class="component rounded-bottom">
+                  <p><a href="">Blog</a></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li id="careers">Careers</li>
+          <li id="about">About</li>
+        </ul>
+        <div class="sign">
+          <ul>
+            <li class="login">Login</li>
+            <li class="register">Register</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <div class="icon-close">
+        <img src="images/icon-close-menu.svg" alt="icon-close-menu" id="icon-close-menu">
+      </div>
+    </div>
+    <section class="content">
+      <div class="content-component">
+        <div class="content-main">
+          <h1 class="content-title">Make <br> remote work</h1>
+          <div class="content-description">
+            <p>Get your team in sync, no matter your location. Streamline processes, 
+              create team rituals, and watch productivity soar.</p>
+          </div>
+          <button class="learn-more">Learn more</button>
+          <div class="clients-component">
+            <div class="images">
+              <img src="images/client-databiz.svg" alt="client-databiz">
+              <img src="images/client-audiophile.svg" alt="client-audiophile">
+              <img src="images/client-meet.svg" alt="client-meet">
+              <img src="images/client-maker.svg" alt="client-maker">
+            </div>
+          </div>
+        </div>
+
+        <picture class="content-image">
+          <source media="(max-width: 700px)" srcset="images/image-hero-mobile.png">
+          <img src="images/image-hero-desktop.png" alt="hero-image">
+        </picture>
+    </div>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/vandnasharma26">Vandna Sharma</a>.
+  </div>
+  <div class="overlay"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
